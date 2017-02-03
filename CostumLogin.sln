@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5C28B0B2-F5DC-405D-A72C-399951EDB96F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7BCA47FE-89A4-40B4-9525-4A132CD7124C}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CostumLogin", "src\CostumLogin\CostumLogin.xproj", "{1D985F16-68C5-4EC4-BD7A-65A458BB8396}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D985F16-68C5-4EC4-BD7A-65A458BB8396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D985F16-68C5-4EC4-BD7A-65A458BB8396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D985F16-68C5-4EC4-BD7A-65A458BB8396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D985F16-68C5-4EC4-BD7A-65A458BB8396}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1D985F16-68C5-4EC4-BD7A-65A458BB8396} = {5C28B0B2-F5DC-405D-A72C-399951EDB96F}
+	EndGlobalSection
+EndGlobal
